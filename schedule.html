@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule | Section 1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        color: white;
+      }
+      body {
+        background: linear-gradient(rgb(75, 108, 183), rgb(24, 40, 72));
+        min-height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+      }
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table tr th {
+        padding: 8px 12px;
+      }
+      table tr td {
+        padding: 8px 12px;
+      }
+      @media (max-width: 450px) {
+        table tr td:last-child,
+        table tr th:last-child {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Subject</th>
+        <th>Room/Lab</th>
+        <th>Lecturer</th>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Belief System of Islam</td>
+        <td>506</td>
+        <td>Ashabuddin</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Programming Language Concepts</td>
+        <td>Lab 02</td>
+        <td>Faza Maula Safi</td>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Off</td>
+        <td>Off</td>
+        <td>Off</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Web Fundamentals</td>
+        <td>Lab 02</td>
+        <td>Ihsanullah Nazar</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Introduction to IT</td>
+        <td>405</td>
+        <td>Ihsanullah Nazari</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Database System Concepts</td>
+        <td>407</td>
+        <td>Mohammad Haleem</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,5 +1,10 @@
 const subjects = [
   {
+    name: "Timetable",
+    description: "View Schedule",
+    link: "schedule.html",
+  },
+  {
     name: "Belief System of Islam",
     description: "View All Materials",
     link: "https://mega.nz/folder/rS42SCaa#uW4pak83jPJbdV7i16eCyA",
@@ -31,13 +36,13 @@ container.innerHTML = "";
 subjects.forEach((subject) => {
   const html = `
     <li>
-        <a href="${subject.link}" target="_blank">
+        <a href="${subject.link}">
             <h2>${subject.name}</h2>
             <p class="details">${subject.description}</p>
         </a>
     </li>
     `;
-  container.insertAdjacentHTML("afterbegin", html);
+  container.insertAdjacentHTML("beforeend", html);
 });
 const labelYear = document.querySelector(".year");
 const date = new Date();
