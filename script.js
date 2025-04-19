@@ -48,3 +48,17 @@ const labelYear = document.querySelector(".year");
 const date = new Date();
 const curYear = date.getFullYear();
 labelYear.textContent = curYear;
+
+// Lazy Loading images
+const blurDiv = document.querySelectorAll(".wavy-banner");
+blurDiv.forEach((div) => {
+  const img = div.querySelector("img");
+  function loaded() {
+    div.classList.add("loaded");
+  }
+  if (img.complete) {
+    loaded;
+  } else {
+    img.addEventListener("load", loaded);
+  }
+});

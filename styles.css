@@ -29,8 +29,8 @@ body {
 .wavy-banner {
   width: 100%;
   height: 10.8rem; /* or whatever you prefer */
-  background-image: url("images/kardan.webp");
-  background-color: rgb(56, 81, 137); /* optional */
+  /* background-image: url("images/kardan.webp"); */
+  background-color: rgb(56, 81, 137);
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(
@@ -51,6 +51,19 @@ body {
     0% 0%
   );
   background-position: center;
+  background-size: cover;
+}
+.wavy-banner > img {
+  opacity: 0;
+  transition: 200ms ease-in-out;
+}
+.wavy-banner.loaded > img {
+  opacity: 1;
+}
+.wavy-banner img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
 }
 .header-info {
   position: relative;
