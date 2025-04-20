@@ -64,6 +64,7 @@ body {
   width: 100%;
   object-position: center;
   object-fit: cover;
+  z-index: 99;
 }
 .header-info {
   position: relative;
