@@ -57,7 +57,7 @@ blurDiv.forEach((div) => {
     div.classList.add("loaded");
   }
   if (img.complete) {
-    loaded;
+    loaded();
   } else {
     img.addEventListener("load", loaded);
   }
