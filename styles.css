@@ -78,7 +78,7 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-image: url(images/ku\ logo\ sm.png);
+  background-image: url(images/ku\ logo\ sm.webp);
   background-position: center;
   background-size: cover;
   top: -85px;
@@ -112,7 +112,7 @@ main ul {
 }
 
 main ul li a {
-  background-image: url("/images/ku\ logo.png");
+  background-image: url("/images/ku\ logo.webp");
   background-size: 55px;
   background-repeat: no-repeat;
   background-position-y: center;

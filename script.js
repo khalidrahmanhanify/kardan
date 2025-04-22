@@ -31,7 +31,7 @@ const subjects = [
   },
 ];
 
-const container = document.querySelector("main ul");
+/* const container = document.querySelector("main ul");
 container.innerHTML = "";
 subjects.forEach((subject) => {
   const html = `
@@ -43,7 +43,7 @@ subjects.forEach((subject) => {
     </li>
     `;
   container.insertAdjacentHTML("beforeend", html);
-});
+}); */
 const labelYear = document.querySelector(".year");
 const date = new Date();
 const curYear = date.getFullYear();
