@@ -53,14 +53,14 @@ body {
   background-position: center;
   background-size: cover;
 }
-.wavy-banner > img {
+.blur-div > img {
   opacity: 0;
   transition: 200ms ease-in-out;
 }
-.wavy-banner.loaded > img {
+.blur-div.loaded > img {
   opacity: 1;
 }
-.wavy-banner img {
+.blur-div img {
   width: 100%;
   object-position: center;
   object-fit: cover;
@@ -76,11 +76,16 @@ body {
 }
 .header-info .logo {
   width: 100px;
+  height: 100px;
   position: absolute;
+  background-image: url(images/ku\ logo\ sm.png);
+  background-position: center;
+  background-size: cover;
   top: -85px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
+
 .header-info .details {
   padding-top: 10px;
   font-weight: 500;

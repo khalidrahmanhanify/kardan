@@ -50,7 +50,7 @@ const curYear = date.getFullYear();
 labelYear.textContent = curYear;
 
 // Lazy Loading images
-const blurDiv = document.querySelectorAll(".wavy-banner");
+const blurDiv = document.querySelectorAll(".blur-div");
 blurDiv.forEach((div) => {
   const img = div.querySelector("img");
   function loaded() {
