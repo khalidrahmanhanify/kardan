@@ -52,6 +52,18 @@ body {
   );
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.laptop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom-left-radius: 10px;
+  display: none;
 }
 .blur-div > img {
   opacity: 0;
@@ -144,6 +156,7 @@ footer {
   position: absolute;
   bottom: 10px;
 }
+
 @media (max-width: 450px) {
   .header-info .details {
     text-align: center;

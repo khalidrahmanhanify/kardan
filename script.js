@@ -44,11 +44,41 @@ subjects.forEach((subject) => {
     `;
   container.insertAdjacentHTML("beforeend", html);
 }); */
+
+// Dynamic Year in copyright text
 const labelYear = document.querySelector(".year");
 const date = new Date();
 const curYear = date.getFullYear();
 labelYear.textContent = curYear;
 
+// Bring Your Laptop
+const labelLaptop = document.querySelector(".laptop");
+const today = date.getDay();
+switch (today) {
+  case 0:
+    // Sunday
+    labelLaptop.style.display = "block";
+    break;
+  case 1:
+    // Monday
+    labelLaptop.style.display = "none";
+    break;
+  case 2:
+    // Tuesday
+    labelLaptop.style.display = "block";
+    break;
+  case 3:
+    // Wednesday
+    labelLaptop.style.display = "block";
+    break;
+  case 4:
+    // Thursday
+    labelLaptop.style.display = "block";
+    break;
+  default:
+    labelLaptop.style.display = "none";
+    break;
+}
 // Lazy Loading images
 const blurDiv = document.querySelectorAll(".blur-div");
 blurDiv.forEach((div) => {
