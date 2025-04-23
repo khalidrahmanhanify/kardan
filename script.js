@@ -75,6 +75,16 @@ switch (today) {
     // Thursday
     labelLaptop.style.display = "block";
     break;
+  case 5:
+    // Friday
+    labelLaptop.style.display = "block";
+    labelLaptop.textContent = "Today is Off";
+    break;
+  case 6:
+    // Saturday
+    labelLaptop.style.display = "block";
+    labelLaptop.textContent = "Today is Off";
+    break;
   default:
     labelLaptop.style.display = "none";
     break;
