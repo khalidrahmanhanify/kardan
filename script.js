@@ -31,6 +31,20 @@ const subjects = [
   },
 ];
 
+window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader-wrapper");
+
+  // Fade out the loader
+  loader.style.opacity = 0;
+  loader.style.pointerEvents = "none";
+
+  // Re-enable scrolling after transition
+  setTimeout(() => {
+    loader.style.display = "none";
+    document.body.classList.remove("loading"); // allow scrolling again
+  }, 500); // match the 0.5s transition time
+});
+
 /* const container = document.querySelector("main ul");
 container.innerHTML = "";
 subjects.forEach((subject) => {
