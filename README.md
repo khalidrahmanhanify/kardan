@@ -2,10 +2,9 @@
 <img src="https://img.icons8.com/?size=512&id=55494&format=png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>KARDAN</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ Khalid Rahman Hanify</code></em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/khalidrahmanhanify/kardan?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/khalidrahmanhanify/kardan?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/khalidrahmanhanify/kardan?style=flat&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/khalidrahmanhanify/kardan?style=flat&color=0080ff" alt="repo-language-count">
